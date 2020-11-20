@@ -105,9 +105,9 @@ const IndexPage = () => {
         >
           Recent technological advancements have lead to a switch from
           prototyping to end-use products in Additive Manufacturing (AM). This
-          transformation needs new digital tools for manufactures. We have
+          transformation needs to be assisted by new digital tools for manufactures. We have
           developed a solution that can be integrated into existing PDM, PIM &
-          ERP systems for an automated screening with the following key
+          ERP systems by automated screening providing the following key
           features:
         </Text>
         <Grid
@@ -117,29 +117,28 @@ const IndexPage = () => {
           }}
         >
           <FeatureBlock color="#ccc">
-            Up-to-date database of relevant end-use AM machines, materials, and
-            manufacturing capabilities.
+            Part identification considering components’ supply chain,
+            technical, economic, and (re)design potential.
           </FeatureBlock>
           <FeatureBlock color="#ccc">
-            Top-down (large data qualities) and bottom-up (single data points)
+            Top-down (large data quantities) and bottom-up (single data points)
             part identification.
           </FeatureBlock>
           <FeatureBlock color="#ccc">
             Simulation of all industrially relevant direct and indirect AM
-            processes including post-processing steps with enhanced machine
-            learning.
+            processes including post-processing steps.
           </FeatureBlock>
           <FeatureBlock color="#ccc">
-            Full 3D models analysis with nesting visualisation. Cost & pricing
-            simulation even possible without a model.
+            Up-to-date database (ontology) of relevant end-use AM machines, materials, and
+            manufacturing capabilities.
           </FeatureBlock>
           <FeatureBlock color="#ccc">
-            Part identification considering a components’ supply chain,
-            technical, economic, and (re)design potential.
+            Full 3D models analysis with nesting visualisations. Cost & pricing
+            simulation even possible without a 3D model, assisted by machine learning for comprehensive make-or-buy decision-making.
           </FeatureBlock>
           <FeatureBlock color="#ccc">
-            Your data is yours. Option for on-premise installation with full
-            offline functionality and no problems with export regulations.
+            Your data stays within your organisation. Option for on-premise installation with full
+            offline functionality to comply with strict data export regulations.
           </FeatureBlock>
         </Grid>
       </Box>
@@ -170,18 +169,15 @@ const IndexPage = () => {
               }}
             />
             <Text sx={{ fontSize: [2, 3], fontWeight: 100, py: [3, 4] }}>
-              We have been working on this tool since the end of 2018, starting
+              We have been working on this software tool since the end of 2018, starting
               with the analysis of supply chain management data. After two years
-              of development we started testing our Windows application in 2020
-              with selected companies and continuously added new features and
-              improvements.
+              of development by continously adding new and improved features, we have been testing and validating our Windows desktop application in 2020
+              with selected companies.
               <br />
-              Before the public release of our On-Prem software we are looking
-              to further refine our algorithms and polish the last edges. If you
-              are interested in early-access we are looking for projects with
-              manufacturers. You would gain access to our tool within your
-              premises and we help you prepare and assess data for AM part
-              identification.
+              Today, we are looking for pre-defined projects with
+              manufacturers (OEMs, SMEs, distributors) to screen large data quantities. You would gain access to our tool within your
+              premises and we help you to prepare and assess your data for AM part
+              identification. Ultimately, selected parts can be 3D printed in-house (if industrial 3D printer available) or by external 3D printing service providers.
             </Text>
             <Flex sx={{ justifyContent: 'space-between' }}>
               <Image
@@ -213,8 +209,7 @@ const IndexPage = () => {
               />
             </Flex>
             <Text sx={{ fontSize: [2, 3], fontWeight: 100, py: [3, 4] }}>
-              If you are interested please let us know, we are looking forward
-              to hearing from you.
+              Contact us for a demonstration of our software.
               {/* This means you will get access to
               use our tool within your premises and we help you to prepare and
               assess data for AM part identification. */}
@@ -257,7 +252,7 @@ const IndexPage = () => {
             fontSize: [2, 3],
           }}
         >
-          SelectAM was founded by an international team of experienced AM
+          SelectAM was founded in 2020 by an international team of experienced AM
           experts, software developers, and business specialists on a mission to
           make the avantages of AM accessible to all manufacturers.
         </Text>
@@ -321,7 +316,7 @@ const IndexPage = () => {
           }}
         >
           <TeamMemberBlock
-            name="Georg Bitarichvili"
+            name="Georg Bitarichvili, M.D."
             title="Business Advisor"
             imagePath="/images/georg.jpeg"
           >
