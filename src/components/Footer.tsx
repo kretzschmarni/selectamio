@@ -17,13 +17,17 @@ export default function Footer() {
         sx={{
           gridTemplateColumns: ['1fr'],
           backgroundColor: 'dark',
-          clipPath: 'polygon(0% 8%,100% 0%,100% 100%,0% 100%)',
+          clipPath: 'polygon(0% 0%,100% 8%,100% 100%,0% 100%)',
           minHeight: '300px',
-          p: [3, 4],
-          color: '#fff',
+          px: [3, 4],
+          paddingTop: [3, 4],
+          color: 'light',
         }}
       >
-        <Flex as="div" sx={{ marginTop: [3, 4] }}>
+        <Flex
+          as="div"
+          sx={{ marginTop: [2, 3], justifyContent: 'space-between' }}
+        >
           <Box>
             <Image
               src="/images/logo-selectam-inverted.svg"
@@ -36,6 +40,11 @@ export default function Footer() {
               <br />
               VAT: FI31626479
             </Text>
+          </Box>
+        </Flex>
+        <Flex sx={{ justifyContent: 'center' }}>
+          <Box as="small" sx={{ marginTop: 2, color: 'muted' }}>
+            Crafted with ♥︎ in Helsinki
           </Box>
         </Flex>
       </Grid>

@@ -23,7 +23,7 @@ export default function Header() {
             />
           </a>
         </Link>
-
+        {/* 
         <Flex sx={{ alignSelf: 'flex-end' }}>
           <Link href="/" passHref>
             <NavLink px={3} py={3}>
@@ -50,10 +50,12 @@ export default function Header() {
               Contact
             </NavLink>
           </Link>
-          {/* <Link href="/style" passHref>
+          
+        </Flex> */}
+
+        {/* <Link href="/style" passHref>
             <NavLink p={2}>Style Guide</NavLink>
           </Link> */}
-        </Flex>
 
         {/* <Button
           ml="auto"

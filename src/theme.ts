@@ -7,6 +7,7 @@ export default {
   colors: {
     // ...swiss.colors,
     text: "#121212",
+    light: "#fff",
     background: "#eef0f4",
     primary: "#409eff",
     primaryLight: "#87D4FF",

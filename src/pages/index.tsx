@@ -25,7 +25,7 @@ const IndexPage = () => {
           gridTemplateColumns: ['1fr', '1fr 1.4fr'],
         }}
       >
-        <Flex sx={{ width: ['100%', '132%'], zIndex: 1, alignItems: 'center' }}>
+        <Flex sx={{ width: ['100%', '120%'], zIndex: 1, alignItems: 'center' }}>
           <Text
             sx={{
               fontSize: [4, 5],
@@ -34,8 +34,8 @@ const IndexPage = () => {
               marginTop: [0, -4],
             }}
           >
-            The complete part identification and re-designing solution for
-            manufacturers looking to gain from the advantages of Additive
+            The holistic part identification and re-designing solution for
+            manufacturers looking to unlock the full potential of Additive
             Manufacturing.
           </Text>
         </Flex>
@@ -64,7 +64,7 @@ const IndexPage = () => {
       <Box
         as="section"
         sx={{
-          background: '#fff',
+          backgroundColor: 'light',
           clipPath: 'polygon(0% 6%,100% 0%,100% 100%,0% 97%)',
           marginTop: -5,
           zIndex: 2,
@@ -75,13 +75,6 @@ const IndexPage = () => {
         <Heading as="h3">Partners:</Heading>
         <Flex sx={{ justifyContent: 'space-around', marginBottom: [3, 4] }}>
           <Image
-            src="/images/logo-aalto.png"
-            alt="Logo Aalto"
-            sx={{
-              height: '32px',
-            }}
-          />
-          <Image
             src="/images/logo_bc-main.inline.svg"
             alt="Logo booncon"
             sx={{
@@ -89,8 +82,8 @@ const IndexPage = () => {
             }}
           />
           <Image
-            src="/images/logo-eit.jpg"
-            alt="Logo Aalto"
+            src="/images/logo-deskartes.png"
+            alt="Logo Torggler"
             sx={{
               height: '36px',
             }}
@@ -110,12 +103,12 @@ const IndexPage = () => {
             fontSize: [2, 3],
           }}
         >
-          Today’s switch from prototyping to end-use products in additive
-          manufacturing Increased competitiveness of AM technologies in recent
-          years Gain from manufacturing flexibility, design opportunities, and
-          cost cuts Encompass the complexity of AM processes and applications
-          High levels of accuracy and user experience. Here are some of our key
-          benefits:
+          Recent technological advancements have lead to a switch from
+          prototyping to end-use products in Additive Manufacturing (AM). This
+          transformation needs new digital tools for manufactures. We have
+          developed a solution that can be integrated into existing PDM, PIM &
+          ERP systems for an automated screening with the following key
+          features:
         </Text>
         <Grid
           gap={3}
@@ -185,10 +178,10 @@ const IndexPage = () => {
               <br />
               Before the public release of our On-Prem software we are looking
               to further refine our algorithms and polish the last edges. If you
-              are interested in early-access we are looking for pilot projects
-              with a handful of manufacturers. You would gain access to our tool
-              within your premises and we help you prepare and assess data for
-              AM part identification.
+              are interested in early-access we are looking for projects with
+              manufacturers. You would gain access to our tool within your
+              premises and we help you prepare and assess data for AM part
+              identification.
             </Text>
             <Flex sx={{ justifyContent: 'space-between' }}>
               <Image
@@ -248,7 +241,7 @@ const IndexPage = () => {
       <Box
         as="section"
         sx={{
-          background: '#fff',
+          backgroundColor: 'light',
           clipPath: 'polygon(0% 0%,100% 8%,100% 97%,0% 100%)',
           zIndex: 2,
           py: [4, 5],
@@ -276,45 +269,45 @@ const IndexPage = () => {
           }}
         >
           <TeamMemberBlock
-            name="Niklas Kretzschmar"
-            title="CEO"
+            name="Niklas Kretzschmar, D.Sc."
+            title="CEO & Co-Founder"
             imagePath="/images/niklas.png"
           >
-            Up-to-date database of relevant end-use AM machines, materials, and
-            manufacturing capabilities.
+            {/* Up-to-date database of relevant end-use AM machines, materials, and
+            manufacturing capabilities. */}
           </TeamMemberBlock>
           <TeamMemberBlock
             name="Lukas Jakob Hafner"
-            title="CTO"
+            title="CTO & Co-Founder"
             imagePath="/images/luki.jpg"
           >
-            Over ten years of working within the fields of technology and
-            design.
+            {/* Over ten years of working within the fields of technology and
+            design. */}
           </TeamMemberBlock>
           <TeamMemberBlock
-            name="Eero Huotilainen"
-            title="Back-end Development"
+            name="Eero Huotilainen, D.Sc."
+            title="Back-end Development & Co-Founder"
             imagePath="/images/eero.jpeg"
           >
-            Experience on computational modeling of surface meshes and data
-            quantification.
+            {/* Experience on computational modeling of surface meshes and data
+            quantification. */}
           </TeamMemberBlock>
           <TeamMemberBlock
-            name="Iñigo Flores Ituarte"
-            title="AM Expert"
+            name="Iñigo Flores Ituarte, Industry Prof."
+            title="AM Expert & Co-Founder"
             imagePath="/images/inigo.jpg"
           >
-            Digital manufacturing expert. Back-end and algorithm development for
+            {/* Digital manufacturing expert. Back-end and algorithm development for
             AM cost, manufacturing process chain, and predictive modelling
-            features.
+            features. */}
           </TeamMemberBlock>
           <TeamMemberBlock
             name="Tobias Johannes"
-            title="Business Expert"
+            title="Business Expert & Co-Founder"
             imagePath="/images/tobi.jpg"
           >
-            Degree in International Business and years of practical experience
-            in the fields of change management and corporate restructuring.
+            {/* Degree in International Business and years of practical experience
+            in the fields of change management and corporate restructuring. */}
           </TeamMemberBlock>
         </Grid>
         <Heading as="h3" sx={{ marginTop: [3, 4], marginBottom: [2, 3] }}>
@@ -332,16 +325,14 @@ const IndexPage = () => {
             title="Business Advisor"
             imagePath="/images/georg.jpeg"
           >
-            Up-to-date database of relevant end-use AM machines, materials, and
-            manufacturing capabilities.
+            Managing Director Eco Scandic Oy
           </TeamMemberBlock>
           <TeamMemberBlock
             name="Ismo Mäkelä"
             title="Technical Advisor"
             imagePath="/images/ismo.jpeg"
           >
-            Up-to-date database of relevant end-use AM machines, materials, and
-            manufacturing capabilities.
+            Managing Director DeskArtes Oy
           </TeamMemberBlock>
         </Grid>
       </Box>
