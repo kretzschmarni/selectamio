@@ -24,11 +24,11 @@ const TeamMemberBlock = ({ children, ...props }: any) => {
           marginRight: [2, 3],
           flexShrink: 0,
         }}
-      ></Image>
+      />
       <Box>
         <Heading as="h4">{name}</Heading>
         <Text sx={{ fontSize: [2], marginBottom: [1, 2] }}>{title}</Text>
-        <Text sx={{ fontSize: [1] }}>{children}</Text>
+        {/* <Text sx={{ fontSize: [1] }}>{children}</Text> */}
       </Box>
     </Flex>
   );

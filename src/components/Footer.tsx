@@ -1,20 +1,9 @@
 import Link from 'next/link';
-import {
-  useColorMode,
-  Container,
-  Flex,
-  NavLink,
-  Button,
-  Image,
-  Box,
-  Grid,
-} from 'theme-ui';
+import { Container, Flex, Text, Image, Box, Grid } from 'theme-ui';
 // import Image from 'next/image';
 
 export default function Footer() {
-  const [colorMode, setColorMode] = useColorMode();
   return (
-    // see theme.layout.container for styles
     <Container
       as="footer"
       sx={{
@@ -34,10 +23,20 @@ export default function Footer() {
           color: '#fff',
         }}
       >
-        <Flex as="div">
-          © SelectAM Oy 2020
-          <br />
-          VAT: FI31626479
+        <Flex as="div" sx={{ marginTop: [3, 4] }}>
+          <Box>
+            <Image
+              src="/images/logo-selectam-inverted.svg"
+              alt="Logo SelectAM"
+              sx={{ height: ['24px', '32px'], maxWidth: ['200px', '260px'] }}
+            />
+            <br />
+            <Text sx={{ fontSize: [1], marginTop: [2, 3] }}>
+              © {new Date().getFullYear()} SelectAM Oy
+              <br />
+              VAT: FI31626479
+            </Text>
+          </Box>
         </Flex>
       </Grid>
     </Container>
